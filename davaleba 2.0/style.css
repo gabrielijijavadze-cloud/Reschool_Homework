@@ -1,0 +1,34 @@
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+}
+
+.box table {
+  width: 1000px;
+  margin: 50px auto;
+  border-collapse: collapse;
+}
+
+.box th,
+.box td {
+  border: 1px solid black;
+  padding: 10px;
+  height: 50px;
+  text-align: center;
+}
+
+.box th {
+  background-color: #eeeeee;
+}
+
+.box .title {
+  background-color: #2e7d32;
+  color: white;
+  font-size: 22px;
+}
